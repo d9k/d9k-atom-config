@@ -1,0 +1,35 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "isotope-ui"
+      "d9k-syntax"
+    ]
+  "custom-title":
+    template: "<% if (relativeFilePath) { %><%= relativeFilePath %> <% } else { %> <%= fileName %> <% } %><% if (projectName) { %> - <%= projectName %><% } %>  - ATOM"
+  "disable-aa":
+    disableAntialiasingInDirectory: true
+  editor:
+    fontSize: 12
+  "exception-reporting":
+    userId: "927f4774-89b1-47b3-a9cf-03216873f99c"
+  fonts:
+    fontFamily: "Bitstream Vera Sans Mono"
+    preview: "The Quick brown fox { 0 !== \"O\" }th th"
+  "isotope-ui":
+    customBackgroundColor: true
+    customBackgroundColorPicker: "#151515"
+    fontFamily: "Clear Sans"
+    fontWeight: "Light"
+    lowContrastTooltip: true
+    minimalMode: true
+    tabSizing: "Minimum"
+  "letter-spacing":
+    "letter-spacing": 1
+  "spell-check":
+    locales: [
+      "ru-RU"
+      "en-US"
+    ]
+  welcome:
+    showOnStartup: false

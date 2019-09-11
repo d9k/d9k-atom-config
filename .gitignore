@@ -1,0 +1,8 @@
+.node-gyp/
+.apm/
+compile-cache/
+packages/
+blob-store/
+storage/
+nohup.out
+.atom-socket*
